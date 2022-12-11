@@ -10,31 +10,47 @@ A series of 25 [prints](./prints) was produced, using the edition numbers as the
 
 <details>
 <summary>1-5</summary>
-<img src="./prints/hommage-a-molnar-01.png" width="620"/>
-<img src="./prints/hommage-a-molnar-02.png" width="620"/>
-<img src="./prints/hommage-a-molnar-03.png" width="620"/>
-<img src="./prints/hommage-a-molnar-04.png" width="620"/>
-<img src="./prints/hommage-a-molnar-05.png" width="620"/>
+<img src="./prints/hommage-a-molnar-01.png" width="310"/>
+<img src="./prints/hommage-a-molnar-02.png" width="310"/>
+<img src="./prints/hommage-a-molnar-03.png" width="310"/>
+<img src="./prints/hommage-a-molnar-04.png" width="310"/>
+<img src="./prints/hommage-a-molnar-05.png" width="310"/>
 </details>
 
 <details>
 <summary>6-10</summary>
-<img src="./prints/hommage-a-molnar-06.png" width="200"/>
+<img src="./prints/hommage-a-molnar-06.png" width="310"/>
+<img src="./prints/hommage-a-molnar-07.png" width="310"/>
+<img src="./prints/hommage-a-molnar-08.png" width="310"/>
+<img src="./prints/hommage-a-molnar-09.png" width="310"/>
+<img src="./prints/hommage-a-molnar-10.png" width="310"/>
 </details>
 
 <details>
 <summary>11-15</summary>
-<img src="./prints/hommage-a-molnar-11.png" width="200"/>
+<img src="./prints/hommage-a-molnar-11.png" width="310"/>
+<img src="./prints/hommage-a-molnar-12.png" width="310"/>
+<img src="./prints/hommage-a-molnar-13.png" width="310"/>
+<img src="./prints/hommage-a-molnar-14.png" width="310"/>
+<img src="./prints/hommage-a-molnar-15.png" width="310"/>
 </details>
 
 <details>
 <summary>16-20</summary>
-<img src="./prints/hommage-a-molnar-16.png" width="200"/>
+<img src="./prints/hommage-a-molnar-16.png" width="310"/>
+<img src="./prints/hommage-a-molnar-17.png" width="310"/>
+<img src="./prints/hommage-a-molnar-18.png" width="310"/>
+<img src="./prints/hommage-a-molnar-19.png" width="310"/>
+<img src="./prints/hommage-a-molnar-20.png" width="310"/>
 </details>
 
 <details>
 <summary>21-25</summary>
-<img src="./prints/hommage-a-molnar-21.png" width="200"/>
+<img src="./prints/hommage-a-molnar-21.png" width="310"/>
+<img src="./prints/hommage-a-molnar-22.png" width="310"/>
+<img src="./prints/hommage-a-molnar-23.png" width="310"/>
+<img src="./prints/hommage-a-molnar-24.png" width="310"/>
+<img src="./prints/hommage-a-molnar-25.png" width="310"/>
 </details>
 
 ## License
