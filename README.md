@@ -1,6 +1,6 @@
 # Hommage à Molnár
 
-"Hommage à Molnár" is a generative art project evoking the pioneering spirit of Vera Molnár.
+"Hommage à Molnár" is a generative art project evoking the pioneering spirit of [Vera Molnár](https://dam.org/museum/artists_ui/artists/molnar-vera).
 
 Go to https://ronikaufman.github.io/hommage-a-molnar to see a random output. You can add specify the seed by writing it an URL parameter (for example: https://ronikaufman.github.io/hommage-a-molnar/?seed=42).
 
