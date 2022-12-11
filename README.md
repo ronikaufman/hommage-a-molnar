@@ -10,7 +10,11 @@ A series of 25 [prints](./prints) was produced, using the edition numbers as the
 
 <details>
 <summary>1-5</summary>
-<img src="./prints/hommage-a-molnar-01.png" width="200"/>
+<img src="./prints/hommage-a-molnar-01.png" width="620"/>
+<img src="./prints/hommage-a-molnar-02.png" width="620"/>
+<img src="./prints/hommage-a-molnar-03.png" width="620"/>
+<img src="./prints/hommage-a-molnar-04.png" width="620"/>
+<img src="./prints/hommage-a-molnar-05.png" width="620"/>
 </details>
 
 <details>
