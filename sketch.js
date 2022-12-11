@@ -17,9 +17,9 @@ const NO_CHANGE = 0, RAND_LINE = 1, RAND_EVERY = 2, FLIP_LINE = 3, FLIP_EVERY = 
 let ityPos = [NO_CHANGE, RAND_LINE, RAND_EVERY, FLIP_LINE, FLIP_EVERY];
 
 const RECT = 0, FULL_ROUND = 1, HALF_ROUND = 2, TRIANG = 3;
-let capPos = [RECT, RECT, RECT, RECT, FULL_ROUND, FULL_ROUND, FULL_ROUND, HALF_ROUND, HALF_ROUND, TRIANG];
+let capPos = [RECT, FULL_ROUND, HALF_ROUND, TRIANG];
 
-let myWhite = 240, myBlack = 15;
+let myWhite = 245, myBlack = 10;
 
 let roundRandom;
 
@@ -52,19 +52,14 @@ function draw() {
 
   let verticality = random(ityPos);
   let a0ity = random(ityPos);
-  let thinity = random([
-    NO_CHANGE, NO_CHANGE, NO_CHANGE,
-    RAND_LINE,
-    FLIP_LINE, FLIP_LINE, FLIP_LINE, FLIP_LINE,
-    FLIP_EVERY, FLIP_EVERY
-  ]);
+  let thinity = random([NO_CHANGE, RAND_LINE, FLIP_LINE, FLIP_EVERY]);
 
 
-  let outerV = random([RECT, RECT, FULL_ROUND, FULL_ROUND, FULL_ROUND, TRIANG]);
+  let outerV = random([RECT, FULL_ROUND, TRIANG]);
   let innerV = outerV == TRIANG ? RECT : outerV;
-  let outerH = random() < 0.9 ? outerV : random([RECT, RECT, FULL_ROUND, FULL_ROUND, FULL_ROUND, TRIANG]);
+  let outerH = random() < 0.8 ? outerV : random([RECT, FULL_ROUND, TRIANG]);
   let innerH = outerH == TRIANG ? RECT : outerH;
-  roundRandom = random() < 0.05;
+  roundRandom = random() < 0.1;
 
 
   let capV = random(possibleCaps(outerV));
@@ -72,27 +67,27 @@ function draw() {
   if (roundRandom) capV = capH = RECT;
 
 
-  let v = random([6, 12, 12, 18, 18, 24, 24, 24, 30, 30, 36, 36, 42]); // the volume (or area) of each block
+  let v = random([6, 12, 18, 24, 30, 36, 42]); // the volume (or area) of each block
   let divisors = findDivisors(v); // v's divisors
   let m = lcm(divisors); // the lower common multiplier of the divisors of v
 
-  if (random() < 1/4) { // make a perfect grid
+  if (random() < 1/3) { // make a perfect grid
     let divisors2 = findDivisors(v*1.5);
     let commonDivisors = divisors.filter((n) => (divisors2.indexOf(n) > -1)); // intersection of the two arrays
-    if (random() < 4/5) commonDivisors.shift();
+    if (random() < 1/2) commonDivisors.shift();
     let di = random(commonDivisors);
     for (let i = 0; i < divisors.length; i++) divisors[i] = di;
   }
 
   s = (width-2*margin)/m; // size of 1 grid unit
   sHalf = s/2; // used for thin blocks
-  gap = s/random([4, 5, 6, 6, 7, 7, 8]); // gap between blocs
-  let canThin = (sHalf-2*gap) > 2.4;
+  gap = s/random([4, 5, 6, 7, 8]); // gap between blocs
+  let canThin = (sHalf-2*gap)/width > 0.004;
   if (!canThin) thinity = NO_CHANGE;
   let remaining = v*innerRatio;
 
   let y = margin;
-  if (random() < 3/4) divisors.pop(); // remove the very tall lines
+  if (random() < 1/2) divisors.pop(); // remove the very tall lines
   let vertical = random() < 1/2;
   let a0 = (random() < 1/2) ? 0 : 1;
   let thin = (!canThin || thinity == NO_CHANGE) ? false : random() < 1/2;
@@ -154,7 +149,7 @@ function draw() {
     y += h;
     if (verticality == RAND_LINE) vertical = random() < 1/2;
     if (verticality == FLIP_LINE) vertical = !vertical;
-    if (a0ity == RAND_LINE) a0 = random() < 0.5 ? 0 : 1;
+    if (a0ity == RAND_LINE) a0 = random() < 1/2 ? 0 : 1;
     if (a0ity == FLIP_LINE) a0 = 1 - a0;
     if (thinity == RAND_LINE) thin = random() < 1/2;
     if (thinity == FLIP_LINE) thin = !thin;
@@ -169,8 +164,8 @@ function draw() {
   //blocks[idx].col = ~~random(palette.length-1)
 
 
-  let entireGradient = (palette.length == 8) || (random() < 1/3); // true if the gradient is over the whole canvas, false if it's block-wise
-  let colorLines = !entireGradient || (random() < 4/5); // true if the lines have color, false if it's the background (which is only possible if !entireGradient)
+  let entireGradient = (palette.length == 8) || (random() < 1/2); // true if the gradient is over the whole canvas, false if it's block-wise
+  let colorLines = !entireGradient || (random() < 1/2); // true if the lines have color, false if it's the background (which is only possible if !entireGradient)
   let pg = createGraphics(width, height, WEBGL);
 	pg.background(backCol);
   pg.translate(-width/2, -height/2);
@@ -195,7 +190,7 @@ function draw() {
   background(backCol);
 
   let secondContrastCol = (random() < 1/2) ? contrastCol : 127;
-  let col2off = (secondContrastCol == contrastCol  || !alternate) ? 1 : random([0, 1, 1]); // if it's 0, the color won't have a gradient (in case of alternate, !entireGradient and colorLines)
+  let col2off = (secondContrastCol == contrastCol  || !alternate) ? 1 : random([0, 1]); // if it's 0, the color won't have a gradient (in case of alternate, !entireGradient and colorLines)
   let theBit = (backCol == myBlack) ? 1 : 0; // bit used for the case where entireGradient, colorLines and alternate
   for (let b of blocks) {
     if (b.thin) {
@@ -304,7 +299,7 @@ function makePalette() {
     pal.push(allColors[i%allColors.length]);
   }
 
-  if (random() < 0.05) pal = [220, 127, 35];
+  if (random() < 0.1) pal = [220, 127, 35];
 
   if (random() < 1/2) pal.reverse();
   return pal;
@@ -522,9 +517,9 @@ function drawBlock(x, y, nw, nh, a0, vertical, outerV, innerV, outerH, innerH, c
 }
 
 function possibleCaps(type) {
-  pos = [RECT, RECT];
+  pos = [RECT];
   if (type == FULL_ROUND) {
-    pos.push(FULL_ROUND, FULL_ROUND, FULL_ROUND, HALF_ROUND);
+    pos.push(FULL_ROUND, HALF_ROUND);
   } else {
     pos.push(TRIANG);
   }
