@@ -1,6 +1,6 @@
 # Hommage à Molnár
 
-"Hommage à Molnár" is a generative art project combining the pioneering work of [Vera Molnár](https://dam.org/museum/artists_ui/artists/molnar-vera) with timeless graphic design aesthetics.
+"Hommage à Molnár" is a generative art project combining the pioneering spirit of [Vera Molnár](https://dam.org/museum/artists_ui/artists/molnar-vera) with timeless graphic design aesthetics.
 
 ## Live view
 
@@ -8,7 +8,7 @@ Go to https://ronikaufman.github.io/hommage-a-molnar to see a random output. You
 
 ## Print series
 
-A series of 25 [prints](./prints) was produced, using the edition numbers as the seeds.
+A series of 25 [prints](./prints) was produced. The seeds were hand selected by the artist.
 
 <details>
 <summary>01-05</summary>
