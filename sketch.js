@@ -23,6 +23,10 @@ let myWhite = 245, myBlack = 10;
 
 let roundRandom;
 
+function preload() {
+  myFont = loadFont("./font/VictorMono-Medium.ttf");
+}
+
 function setup() {
   outerRatio = sqrt(2); // ratio of the whole image
   innerRatio = 1.5; // ratio of the inner composition (without the margin)
@@ -39,11 +43,13 @@ function setup() {
 
   let params = getURLParams();
   mySeed = params.seed;
+  if (mySeed == undefined) mySeed = ~~random(1000);
 }
 
 function draw() {
   randomSeed(mySeed);
 
+  push();
   rotate(random([0, PI]));
   translate(-width/2, -height/2);
 
@@ -252,6 +258,8 @@ function draw() {
       image(pg, width-margin, 0, margin, height, width-margin, 0, margin, height);
       image(pg, margin, 0, width-2*margin, margin, margin, 0, width-2*margin, margin);
       image(pg, margin, height-margin, width-2*margin, margin, margin, height-margin, width-2*margin, margin);
+    } else {
+      [backCol, contrastCol] = [contrastCol, backCol];
     }
   } else {
     let darkestMode = brightness(color(backCol)) > 50;
@@ -259,6 +267,14 @@ function draw() {
     blendMode(darkestMode ? DARKEST : LIGHTEST);
     image(pg, 0, 0);
   }
+
+  pop();
+  blendMode(BLEND);
+  noStroke();
+  fill(contrastCol);
+  textSize(width/50);
+  textFont(myFont);
+  text(`seed=${mySeed}`, margin/4-width/2, height/2-margin/4);
 }
 
 // returns all divisors of x in an array
