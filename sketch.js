@@ -54,6 +54,7 @@ function draw() {
   translate(-width/2, -height/2);
 
   [backCol, contrastCol] = shuffle([myWhite, myBlack]);
+  let rememberCols = [backCol, contrastCol];
   let palette = makePalette();
 
   let verticality = random(ityPos);
@@ -259,7 +260,7 @@ function draw() {
       image(pg, margin, 0, width-2*margin, margin, margin, 0, width-2*margin, margin);
       image(pg, margin, height-margin, width-2*margin, margin, margin, height-margin, width-2*margin, margin);
     } else {
-      [backCol, contrastCol] = [contrastCol, backCol];
+      [backCol, contrastCol] = rememberCols;
     }
   } else {
     let darkestMode = brightness(color(backCol)) > 50;
