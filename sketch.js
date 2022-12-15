@@ -30,8 +30,8 @@ function preload() {
 function setup() {
   outerRatio = sqrt(2); // ratio of the whole image
   innerRatio = 1.5; // ratio of the inner composition (without the margin)
-	let W = windowWidth, H = windowHeight;
-	//let W = 620, H = 877; // dimensions for A4 300dpi
+  let W = windowWidth, H = windowHeight;
+  //let W = 620, H = 877; // dimensions for A4 300dpi
   let w = (H>outerRatio*W) ? W : H/outerRatio; // width of the whole image
   margin = floor(w*(innerRatio-outerRatio)/(2*(innerRatio-1)));
   // margin/w solves the following equation in m:
