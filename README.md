@@ -4,11 +4,11 @@
 
 ## Live view
 
-Go to https://ronikaufman.github.io/hommage-a-molnar to see a random output. You can add specify the seed by writing it an URL parameter (for example: https://ronikaufman.github.io/hommage-a-molnar/?seed=42). Tested on desktop browsers, not mobile.
+Go to https://ronikaufman.github.io/hommage-a-molnar to see a random output. The [seed](https://en.wikipedia.org/wiki/Random_seed) can be specified by writing it an URL parameter (for example: https://ronikaufman.github.io/hommage-a-molnar/?seed=42). Tested on desktop browsers, not mobile.
 
 ## Print series
 
-A series of 25 [prints](./prints) was produced. The seeds were hand selected by the artist.
+A series of 25 [prints](./prints) was produced, on A4 Hahnemühle German Etching paper. The seeds were selected by the artist.
 
 <details>
 <summary>01-05</summary>
