@@ -8,51 +8,56 @@ Go to https://ronikaufman.github.io/hommage-a-molnar to see a random output. The
 
 ## Print series
 
-A series of 25 [prints](./prints) was produced, on A4 Hahnemühle German Etching paper. The seeds were selected by the artist.
+A series of 25 [prints](./prints) was produced, on A4 Hahnemühle German Etching paper. The seeds were selected by the artist. Prints marked with a 🔴 below have been sold.
 
 <details>
 <summary>01-05</summary>
-<img src="./prints/hommage-a-molnar-01.png" width="620"/>
-<img src="./prints/hommage-a-molnar-02.png" width="620"/>
-<img src="./prints/hommage-a-molnar-03.png" width="620"/>
-<img src="./prints/hommage-a-molnar-04.png" width="620"/>
-<img src="./prints/hommage-a-molnar-05.png" width="620"/>
+<br/>
+<img src="./prints/hommage-a-molnar-01.png" width="50%"/> 🔴 <br/><br/>
+<img src="./prints/hommage-a-molnar-02.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-03.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-04.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-05.png" width="50%"/> 🔴
 </details>
 
 <details>
 <summary>06-10</summary>
-<img src="./prints/hommage-a-molnar-06.png" width="620"/>
-<img src="./prints/hommage-a-molnar-07.png" width="620"/>
-<img src="./prints/hommage-a-molnar-08.png" width="620"/>
-<img src="./prints/hommage-a-molnar-09.png" width="620"/>
-<img src="./prints/hommage-a-molnar-10.png" width="620"/>
+<br/>
+<img src="./prints/hommage-a-molnar-06.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-07.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-08.png" width="50%"/> 🔴 <br/><br/>
+<img src="./prints/hommage-a-molnar-09.png" width="50%"/> 🔴 <br/><br/>
+<img src="./prints/hommage-a-molnar-10.png" width="50%"/> 🔴
 </details>
 
 <details>
 <summary>11-15</summary>
-<img src="./prints/hommage-a-molnar-11.png" width="620"/>
-<img src="./prints/hommage-a-molnar-12.png" width="620"/>
-<img src="./prints/hommage-a-molnar-13.png" width="620"/>
-<img src="./prints/hommage-a-molnar-14.png" width="620"/>
-<img src="./prints/hommage-a-molnar-15.png" width="620"/>
+<br/>
+<img src="./prints/hommage-a-molnar-11.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-12.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-13.png" width="50%"/> 🔴 <br/><br/>
+<img src="./prints/hommage-a-molnar-14.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-15.png" width="50%"/> 🔴
 </details>
 
 <details>
 <summary>16-20</summary>
-<img src="./prints/hommage-a-molnar-16.png" width="620"/>
-<img src="./prints/hommage-a-molnar-17.png" width="620"/>
-<img src="./prints/hommage-a-molnar-18.png" width="620"/>
-<img src="./prints/hommage-a-molnar-19.png" width="620"/>
-<img src="./prints/hommage-a-molnar-20.png" width="620"/>
+<br/>
+<img src="./prints/hommage-a-molnar-16.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-17.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-18.png" width="50%"/> 🔴 <br/><br/>
+<img src="./prints/hommage-a-molnar-19.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-20.png" width="50%"/> 🔴
 </details>
 
 <details>
 <summary>21-25</summary>
-<img src="./prints/hommage-a-molnar-21.png" width="620"/>
-<img src="./prints/hommage-a-molnar-22.png" width="620"/>
-<img src="./prints/hommage-a-molnar-23.png" width="620"/>
-<img src="./prints/hommage-a-molnar-24.png" width="620"/>
-<img src="./prints/hommage-a-molnar-25.png" width="620"/>
+<br/>
+<img src="./prints/hommage-a-molnar-21.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-22.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-23.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-24.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-25.png" width="50%"/> 🔴
 </details>
 
 ## License
