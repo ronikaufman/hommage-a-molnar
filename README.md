@@ -53,7 +53,7 @@ A series of 25 [prints](./prints) was produced, on A4 Hahnemühle German Etching
 <details>
 <summary>21-25</summary>
 <br/>
-<img src="./prints/hommage-a-molnar-21.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-21.png" width="50%"/> 🔴 <br/><br/>
 <img src="./prints/hommage-a-molnar-22.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-23.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-24.png" width="50%"/> <br/><br/>
