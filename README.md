@@ -1,6 +1,6 @@
 # Hommage à Molnár
 
-"Hommage à Molnár" is a generative art project combining the spirit of [Vera Molnár](https://dam.org/museum/artists_ui/artists/molnar-vera) with graphic design aesthetics.
+"Hommage à Molnár" is a generative art project combining the spirit of [Vera Molnár](https://dam.org/museum/artists_ui/artists/molnar-vera) with current graphic design aesthetics.
 
 ## Live view
 
