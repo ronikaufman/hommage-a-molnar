@@ -15,7 +15,7 @@ A series of 25 [prints](./prints) was produced, on A4 Hahnemühle German Etching
 <img src="./prints/hommage-a-molnar-03.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-04.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-05.png" width="50%"/> 🔴 <br/><br/>
-<img src="./prints/hommage-a-molnar-06.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-06.png" width="50%"/> 🔴 <br/><br/>
 <img src="./prints/hommage-a-molnar-07.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-08.png" width="50%"/> 🔴 <br/><br/>
 <img src="./prints/hommage-a-molnar-09.png" width="50%"/> 🔴 <br/><br/>
@@ -26,7 +26,7 @@ A series of 25 [prints](./prints) was produced, on A4 Hahnemühle German Etching
 <img src="./prints/hommage-a-molnar-14.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-15.png" width="50%"/> 🔴 <br/><br/>
 <img src="./prints/hommage-a-molnar-16.png" width="50%"/> <br/><br/>
-<img src="./prints/hommage-a-molnar-17.png" width="50%"/> <br/><br/>
+<img src="./prints/hommage-a-molnar-17.png" width="50%"/> 🔴 <br/><br/>
 <img src="./prints/hommage-a-molnar-18.png" width="50%"/> 🔴 <br/><br/>
 <img src="./prints/hommage-a-molnar-19.png" width="50%"/> <br/><br/>
 <img src="./prints/hommage-a-molnar-20.png" width="50%"/> 🔴 <br/><br/>
